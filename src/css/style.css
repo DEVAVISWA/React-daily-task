@@ -1,0 +1,51 @@
+#gradient {
+    background: linear-gradient(to right, rgb(2, 101, 231), rgb(50, 172, 255));
+    height: 500px;
+    width: 1000px;
+    display: flex;
+}
+
+#card {
+    border: 2px solid black;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+}
+
+#ul {
+    list-style-type: none;
+    text-align: left;
+    font-size: larger;    
+}
+
+#button {
+    color: white;
+    background-color: rgb(75, 162, 255);
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    width: 220px;
+    height: 50px;
+    cursor: pointer;
+}
+#heading{
+    font-size: 40px;
+}
+hr {
+    /* position: relative; */    
+    /* height:0.75px; */
+    width: 90% ;
+    background-color:rgba(0, 0, 0, 0.069);
+  }
+  #smallHeadder{
+    color: rgba(0, 0, 0, 0.329);
+    font-weight: bolder;
+    margin-top: 10px;
+  }

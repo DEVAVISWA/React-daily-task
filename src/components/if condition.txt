@@ -1,0 +1,5 @@
+if (datas.feature1.condition) {
+                    return(
+                        <li>✔ {datas.feature1.feature}</li>
+                    )
+                }

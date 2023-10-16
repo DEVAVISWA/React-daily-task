@@ -1,8 +1,17 @@
 import React from 'react'
+import Datas from './components/datas'
+import './css/style.css'
 
-function App() {
+function App({ data }) {
+  // console.log(data)
   return (
-    <div>G2G</div>
+    <div id='gradient'>
+      {
+        data.map(datas =>
+          <Datas key={datas.id} datas={datas} />
+        )
+      }
+    </div>
   )
 }
 
